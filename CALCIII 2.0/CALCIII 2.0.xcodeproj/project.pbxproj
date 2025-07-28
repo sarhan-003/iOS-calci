@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F19D53F2E3399CC006DF38E /* CALCIII_2_0App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F19D53E2E3399CC006DF38E /* CALCIII_2_0App.swift */; };
+		3F19D5412E3399CC006DF38E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F19D5402E3399CC006DF38E /* ContentView.swift */; };
+		3F19D5432E3399CE006DF38E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F19D5422E3399CE006DF38E /* Assets.xcassets */; };
+		3F19D5462E3399CE006DF38E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F19D5452E3399CE006DF38E /* Preview Assets.xcassets */; };
+		3F19D5502E3399CE006DF38E /* CALCIII_2_0Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F19D54F2E3399CE006DF38E /* CALCIII_2_0Tests.swift */; };
+		3F19D55A2E3399CE006DF38E /* CALCIII_2_0UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F19D5592E3399CE006DF38E /* CALCIII_2_0UITests.swift */; };
+		3F19D55C2E3399CE006DF38E /* CALCIII_2_0UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F19D55B2E3399CE006DF38E /* CALCIII_2_0UITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F19D54C2E3399CE006DF38E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F19D5332E3399CC006DF38E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F19D53A2E3399CC006DF38E;
+			remoteInfo = "CALCIII 2.0";
+		};
+		3F19D5562E3399CE006DF38E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F19D5332E3399CC006DF38E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F19D53A2E3399CC006DF38E;
+			remoteInfo = "CALCIII 2.0";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F19D53B2E3399CC006DF38E /* CALCIII 2.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CALCIII 2.0.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F19D53E2E3399CC006DF38E /* CALCIII_2_0App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CALCIII_2_0App.swift; sourceTree = "<group>"; };
+		3F19D5402E3399CC006DF38E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3F19D5422E3399CE006DF38E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F19D5452E3399CE006DF38E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3F19D54B2E3399CE006DF38E /* CALCIII 2.0Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CALCIII 2.0Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F19D54F2E3399CE006DF38E /* CALCIII_2_0Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CALCIII_2_0Tests.swift; sourceTree = "<group>"; };
+		3F19D5552E3399CE006DF38E /* CALCIII 2.0UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CALCIII 2.0UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F19D5592E3399CE006DF38E /* CALCIII_2_0UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CALCIII_2_0UITests.swift; sourceTree = "<group>"; };
+		3F19D55B2E3399CE006DF38E /* CALCIII_2_0UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CALCIII_2_0UITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F19D5382E3399CC006DF38E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F19D5482E3399CE006DF38E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F19D5522E3399CE006DF38E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F19D5322E3399CC006DF38E = {
+			isa = PBXGroup;
+			children = (
+				3F19D53D2E3399CC006DF38E /* CALCIII 2.0 */,
+				3F19D54E2E3399CE006DF38E /* CALCIII 2.0Tests */,
+				3F19D5582E3399CE006DF38E /* CALCIII 2.0UITests */,
+				3F19D53C2E3399CC006DF38E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F19D53C2E3399CC006DF38E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F19D53B2E3399CC006DF38E /* CALCIII 2.0.app */,
+				3F19D54B2E3399CE006DF38E /* CALCIII 2.0Tests.xctest */,
+				3F19D5552E3399CE006DF38E /* CALCIII 2.0UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F19D53D2E3399CC006DF38E /* CALCIII 2.0 */ = {
+			isa = PBXGroup;
+			children = (
+				3F19D53E2E3399CC006DF38E /* CALCIII_2_0App.swift */,
+				3F19D5402E3399CC006DF38E /* ContentView.swift */,
+				3F19D5422E3399CE006DF38E /* Assets.xcassets */,
+				3F19D5442E3399CE006DF38E /* Preview Content */,
+			);
+			path = "CALCIII 2.0";
+			sourceTree = "<group>";
+		};
+		3F19D5442E3399CE006DF38E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3F19D5452E3399CE006DF38E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3F19D54E2E3399CE006DF38E /* CALCIII 2.0Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3F19D54F2E3399CE006DF38E /* CALCIII_2_0Tests.swift */,
+			);
+			path = "CALCIII 2.0Tests";
+			sourceTree = "<group>";
+		};
+		3F19D5582E3399CE006DF38E /* CALCIII 2.0UITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F19D5592E3399CE006DF38E /* CALCIII_2_0UITests.swift */,
+				3F19D55B2E3399CE006DF38E /* CALCIII_2_0UITestsLaunchTests.swift */,
+			);
+			path = "CALCIII 2.0UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F19D53A2E3399CC006DF38E /* CALCIII 2.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F19D55F2E3399CE006DF38E /* Build configuration list for PBXNativeTarget "CALCIII 2.0" */;
+			buildPhases = (
+				3F19D5372E3399CC006DF38E /* Sources */,
+				3F19D5382E3399CC006DF38E /* Frameworks */,
+				3F19D5392E3399CC006DF38E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CALCIII 2.0";
+			productName = "CALCIII 2.0";
+			productReference = 3F19D53B2E3399CC006DF38E /* CALCIII 2.0.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F19D54A2E3399CE006DF38E /* CALCIII 2.0Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F19D5622E3399CE006DF38E /* Build configuration list for PBXNativeTarget "CALCIII 2.0Tests" */;
+			buildPhases = (
+				3F19D5472E3399CE006DF38E /* Sources */,
+				3F19D5482E3399CE006DF38E /* Frameworks */,
+				3F19D5492E3399CE006DF38E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F19D54D2E3399CE006DF38E /* PBXTargetDependency */,
+			);
+			name = "CALCIII 2.0Tests";
+			productName = "CALCIII 2.0Tests";
+			productReference = 3F19D54B2E3399CE006DF38E /* CALCIII 2.0Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F19D5542E3399CE006DF38E /* CALCIII 2.0UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F19D5652E3399CE006DF38E /* Build configuration list for PBXNativeTarget "CALCIII 2.0UITests" */;
+			buildPhases = (
+				3F19D5512E3399CE006DF38E /* Sources */,
+				3F19D5522E3399CE006DF38E /* Frameworks */,
+				3F19D5532E3399CE006DF38E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F19D5572E3399CE006DF38E /* PBXTargetDependency */,
+			);
+			name = "CALCIII 2.0UITests";
+			productName = "CALCIII 2.0UITests";
+			productReference = 3F19D5552E3399CE006DF38E /* CALCIII 2.0UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F19D5332E3399CC006DF38E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					3F19D53A2E3399CC006DF38E = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					3F19D54A2E3399CE006DF38E = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 3F19D53A2E3399CC006DF38E;
+					};
+					3F19D5542E3399CE006DF38E = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 3F19D53A2E3399CC006DF38E;
+					};
+				};
+			};
+			buildConfigurationList = 3F19D5362E3399CC006DF38E /* Build configuration list for PBXProject "CALCIII 2.0" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F19D5322E3399CC006DF38E;
+			productRefGroup = 3F19D53C2E3399CC006DF38E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F19D53A2E3399CC006DF38E /* CALCIII 2.0 */,
+				3F19D54A2E3399CE006DF38E /* CALCIII 2.0Tests */,
+				3F19D5542E3399CE006DF38E /* CALCIII 2.0UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F19D5392E3399CC006DF38E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F19D5462E3399CE006DF38E /* Preview Assets.xcassets in Resources */,
+				3F19D5432E3399CE006DF38E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F19D5492E3399CE006DF38E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F19D5532E3399CE006DF38E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F19D5372E3399CC006DF38E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F19D5412E3399CC006DF38E /* ContentView.swift in Sources */,
+				3F19D53F2E3399CC006DF38E /* CALCIII_2_0App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F19D5472E3399CE006DF38E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F19D5502E3399CE006DF38E /* CALCIII_2_0Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F19D5512E3399CE006DF38E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F19D55A2E3399CE006DF38E /* CALCIII_2_0UITests.swift in Sources */,
+				3F19D55C2E3399CE006DF38E /* CALCIII_2_0UITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F19D54D2E3399CE006DF38E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F19D53A2E3399CC006DF38E /* CALCIII 2.0 */;
+			targetProxy = 3F19D54C2E3399CE006DF38E /* PBXContainerItemProxy */;
+		};
+		3F19D5572E3399CE006DF38E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F19D53A2E3399CC006DF38E /* CALCIII 2.0 */;
+			targetProxy = 3F19D5562E3399CE006DF38E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3F19D55D2E3399CE006DF38E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F19D55E2E3399CE006DF38E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F19D5602E3399CE006DF38E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CALCIII 2.0/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "example.com.CALCIII-2-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F19D5612E3399CE006DF38E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CALCIII 2.0/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "example.com.CALCIII-2-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3F19D5632E3399CE006DF38E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "example.com.CALCIII-2-0Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CALCIII 2.0.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CALCIII 2.0";
+			};
+			name = Debug;
+		};
+		3F19D5642E3399CE006DF38E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "example.com.CALCIII-2-0Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CALCIII 2.0.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CALCIII 2.0";
+			};
+			name = Release;
+		};
+		3F19D5662E3399CE006DF38E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "example.com.CALCIII-2-0UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "CALCIII 2.0";
+			};
+			name = Debug;
+		};
+		3F19D5672E3399CE006DF38E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "example.com.CALCIII-2-0UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "CALCIII 2.0";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F19D5362E3399CC006DF38E /* Build configuration list for PBXProject "CALCIII 2.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F19D55D2E3399CE006DF38E /* Debug */,
+				3F19D55E2E3399CE006DF38E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F19D55F2E3399CE006DF38E /* Build configuration list for PBXNativeTarget "CALCIII 2.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F19D5602E3399CE006DF38E /* Debug */,
+				3F19D5612E3399CE006DF38E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F19D5622E3399CE006DF38E /* Build configuration list for PBXNativeTarget "CALCIII 2.0Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F19D5632E3399CE006DF38E /* Debug */,
+				3F19D5642E3399CE006DF38E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F19D5652E3399CE006DF38E /* Build configuration list for PBXNativeTarget "CALCIII 2.0UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F19D5662E3399CE006DF38E /* Debug */,
+				3F19D5672E3399CE006DF38E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F19D5332E3399CC006DF38E /* Project object */;
+}
