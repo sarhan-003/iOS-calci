@@ -3,4 +3,4 @@ A clean and minimal iOS calculator built with SwiftUI. Supports basic arithmetic
 
 
 
-<img src="Screenshot 2025-07-28 at 3.10.34 PM.jpg">
+<img src="sarhan.png">
